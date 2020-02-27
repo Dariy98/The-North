@@ -1,8 +1,12 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-.swiper-container {
+.swiper-container,
+.swiper-container-2 {
   width: 100%;
   height: 100%;
+}
+.swiper-container-2 {
+  padding: 0 10px;
 }
 .swiper-slide {
   font-size: 18px;
@@ -88,5 +92,45 @@ outline: none;
   .swiper-button-prev {
     display: block;
     outline: none;
+  }
+}
+@media (min-width: 1362px) {
+  .b-next {
+    right: 5%;
+    left: auto;
+  }
+  .b-prev {
+    left: 4%;
+    right: auto;
+  }
+}
+@media (min-width: 1440px) {
+  .b-next {
+    right: 8%;
+    left: auto;
+  }
+  .b-prev {
+    left: 7%;
+    right: auto;
+  }
+}
+@media (min-width: 1555px) {
+  .b-next {
+    right: 11%;
+    left: auto;
+  }
+  .b-prev {
+    left: 10%;
+    right: auto;
+  }
+}
+@media (min-width: 1672px) {
+  .b-next {
+    right: 13%;
+    left: auto;
+  }
+  .b-prev {
+    left: 12%;
+    right: auto;
   }
 }

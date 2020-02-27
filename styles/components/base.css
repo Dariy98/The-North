@@ -201,6 +201,7 @@ font-size: 22px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 15px;
 }
 .headertop-picture {
   display: -webkit-box;
@@ -378,9 +379,6 @@ h6 {
 }
 }
 @media (min-width: 880px) {
-.header-top {
-  margin-top: 30px;
-}
 .search {
   padding-right: 37px;
 }

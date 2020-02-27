@@ -4,6 +4,7 @@
     max-height: 650px;
     padding-top: 45px;
     color: #ffffff;
+    background-color: rgba(34, 58, 80, 0.45);
 }
 .section-content {
     display: -webkit-box;
@@ -28,6 +29,6 @@
 .section-hero-description {
     line-height: 23px;
     text-align: center;
-    width: 59%;
+    width: 88%;
     margin: 0 0 50px;
 }

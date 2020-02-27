@@ -81,7 +81,6 @@
     margin: 8px 0 0 30px;
 }
 .card-secondary {
-    max-width: 429px;
     width: 100%;
     background-color: #FFFFFF;
     padding: 15px;
@@ -125,6 +124,9 @@
     color: red;
 }
 @media (min-width: 450px) {
+    .card-secondary {
+        width: 86%;
+    }
     .card-footer-2 {
         margin-left: 65%;
     }
@@ -135,5 +137,10 @@
     }
     .name {
         font-size: 18px;
+    }
+}
+@media (min-width: 644px) {
+    .card-secondary {
+        width: 100%;
     }
 }

@@ -6,6 +6,9 @@
   .star-rating-card-1 {
       padding-left: 18px;
   }
+  .stars-card-2 {
+      padding-left: 13px;
+  }
   .star-rating-stars {
     font-family: "Arial Unicode MS", Arial, sans-serif;
     unicode-bidi: bidi-override;
